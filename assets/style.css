@@ -34,6 +34,10 @@ p {
     margin-bottom: 30px;
 }
 
+.rating-state {
+    display: block;
+}
+
 .rating-star {
     background-color: rgb(38,47,56);
     border-radius: 50%;
@@ -73,6 +77,17 @@ p {
     justify-content: center;
     align-items: center;
     padding-top: 2px;
+}
+
+.circle:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.circle:active, .circle:focus, .circle:visited {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
 }
 
 .submitBtn {
